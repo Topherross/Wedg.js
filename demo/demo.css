@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*--- BOF ---*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    overflow: auto;
+}
+
+body {
+    background: rgb(60, 60, 60);
+    position: relative;
+    min-width: 600px;
+}
+
+h1, h2, h3, h4 {
+    font: 300 13px "Open Sans", sans-serif;
+    color: rgb(220, 220, 220);
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 56px;
+    overflow: auto;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 0 37px 0;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+#page_wrap {
+    width: 600px;
+    margin: 0 auto;
+    height: auto;
+    min-height: 100%;
+    overflow: auto;
+}
+
+#timer_wrap,
+#display_wrap {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+#timer_wrap {
+    margin: 40px auto;
+}
+
+#timer_wrap span {
+    margin: 0 50px;
+}
+
+#timer_wrap span.display {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    color: rgb(190, 190, 190);
+    font: 600 24px "Open Sans", sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    line-height: 80px;
+    top: 60px;
+}
+
+#timer_wrap span.display#day_display {
+    left: 35px;
+}
+
+#timer_wrap span.display#hour_display {
+    left: 186px;
+}
+
+#timer_wrap span.display#minute_display {
+    left: 337px;
+}
+
+#timer_wrap span.display#second_display {
+    left: 486px;
+}
+
+#display_wrap span {
+    float: left;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    color: rgb(190, 190, 190);
+    font: 600 18px "Open Sans", sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 0 25px;
+    padding: 0;
+}
+
+#circle_target {
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.wedg-circle {
+    margin: 0 35px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+form {
+    text-align: center;
+    overflow: auto;
+    margin: 0 0 40px 0;
+}
+
+label {
+    color: rgb(130, 130, 130);
+    font: 400 14px "Open Sans", sans-serif;
+    margin: 0 20px 0 0;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none 0;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+input[type="submit"] {
+    background: transparent;
+    color: rgb(255, 130, 50);
+    font: 300 14px "Arial", sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin: 2px 0;
+}
+
+input[type="text"] {
+    width: 40px;
+    cursor: default;
+    padding: 0 4px;
+    color: rgb(240, 240, 240);
+    font: 400 14px "Open Sans", sans-serif;
+    background: transparent;
+    border-bottom: rgb(148, 148, 148) 1px solid;
+}
+
+header {
+    border-bottom: rgb(130, 130, 130) 1px dotted;
+    padding: 12px 16px;
+    overflow: auto;
+}
+
+#user_display {
+    float: right;
+    overflow: auto;
+    width: 150px;
+}
+
+#user_display * {
+    font: 400 11px "Arial", sans-serif;
+    color: rgb(240, 240, 240);
+}
+
+#user_display span {
+    float: left;
+    clear: left;
+    padding: 0 0 4px 0;
+    letter-spacing: 0.08em;
+}
+
+#user_icon_wrap {
+    float: right;
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+#percent_target {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#percent_target .wedg-circle {
+    margin: 0;
+}
+
+#user_image_wrap {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+#user_image_wrap img {
+    width: 48px;
+    height: auto;
+}
+
+#user_name {
+
+}
+
+/*--- EOF ---*/

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link media="only screen"
+          href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Open+Sans+Condensed:300,700'
+          type='text/css' rel='stylesheet'/>
+    <link media="screen" rel="stylesheet" type="text/css" href="demo.css">
+    <script type="text/javascript" src="../src/wedg.js"></script>
+    <title>Wedg.js Demo</title>
+</head>
+<body>
+<header>
+    <div id="user_display">
+        <div id="user_icon_wrap">
+            <div id="percent_target"></div>
+            <div id="user_image_wrap">
+                <img src="img/user-icon.png" alt="User Icon" title="User Icon"/>
+            </div>
+        </div>
+        <span id="user_name">Zartan</span>
+        <span id="level">Level 36</span>
+        <span id="level_percent">12483/15860</span>
+    </div>
+    <h1>Wedg.js</h1>
+</header>
+<div id="page_wrap">
+
+
+    <div id="timer_wrap">
+        <form id="time_form">
+            <label for="day_input">
+                Days <input type="text" name="day_input" id="day_input" tabindex="1"/>
+            </label>
+            <label for="hour_input">
+                Hours <input type="text" name="hour_input" id="hour_input" tabindex="2"/>
+            </label>
+            <label for="minute_input">
+                Minutes <input type="text" name="minute_input" id="minute_input" tabindex="3"/>
+            </label>
+            <label for="second_input">
+                Seconds <input type="text" name="second_input" id="second_input" tabindex="4"/>
+            </label>
+            <input type="submit" value="Start" id="time_submit"/>
+        </form>
+        <div id="circle_target"></div>
+        <span id="day_display" class="display">0</span>
+        <span id="hour_display" class="display">0</span>
+        <span id="minute_display" class="display">0</span>
+        <span id="second_display" class="display">0</span>
+
+        <div id="display_wrap">
+            <span>Days</span>
+            <span>Hours</span>
+            <span>Minutes</span>
+            <span>Seconds</span>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="demo.js"></script>
+</body>
+</html>
