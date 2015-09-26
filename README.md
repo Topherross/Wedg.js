@@ -6,7 +6,7 @@ Wedg.js is a pure javascript widget to enable partial, or full canvas rendering 
 
 ## Usage
 
-To create a new `Wedg` object call the following function from your Javascript.
+To create a new `Wedg` object call the following function from your Javascript file.
 
 ```javascript
 var my_wedg = new Wedg(target, options);
@@ -28,7 +28,7 @@ Both `target`, and `options` are required.
 }
 ```
 
-__NOTE__ Any keys other than those listed above will be ignored when creating the new `Wedg`.
+__NOTE__ Any keys other than those listed above will be ignored when creating the new `Wedg`. See the [options](#options "Wedg.js Options") below.
 
 The newly created `my_wedg` object has one method `my_wedg.update(percent, [cc]);` with two method parameters.
 
