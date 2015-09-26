@@ -50,7 +50,7 @@ __NOTE__ Any keys other than those listed above will be ignored when creating th
 | Option Name | Required | Allowed Values | Default Value | Example Values | Description |
 | ----------- | -------- | -------------- | ------------- | -------------- | ----------- |
 | radius | Yes | Number | None | `60` | A number representing the radius of the circle. Radius equals half of the total height, and width of the circle. |
-| color | No | String | `'#7F7F7F'` | Hex `#C3C3C3`, String `blue`, RGB `rgb(r,g,b)`, or RGBA `rgba(r,g,b,a)` | The color to render the circle with. |
+| color | No | String | `'#7F7F7F'` | `'#C3C3C3'`, `'blue'`, `'rgb(r,g,b)'`, or `'rgba(r,g,b,a)'` | The color to render the circle with. |
 | percent | No | Number | `0` | `0-100` | The percent of the circle to render. |
 | stroke | No | Number | `0` | `6` | The stroke width of the circle. If omitted the circle will render with a fill equal to the `options.color`. |
 | cclockwise | No | Boolean | `false` | `true`, or `false` | When set to `true` the circle will render in a counter clockwise direction. |
